@@ -48,10 +48,10 @@
 
 </html> <!-- HTML 문서 종료 -->
 
-#기본 페이지 개념
-.../index.html > 기본 사이트 의미
-예시)	.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/
-		.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/index.html
+# 기본 페이지 개념
+.../index.html > 기본 사이트 의미 <br />
+예시)	.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/ <br />
+		.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/index.html <br />
 		>> 동일한 페이지 열림
 
 # 폼 알아보기 (study03)
@@ -60,15 +60,37 @@
 method 선택 방법
 get 방식 : 단순 화면 띄우기 / post 방식 : 민감한 정보 포함
 
-a 태그와 유사하게 이용할 수도 있음
+label
+input과 같이 묶어 종종 사용됨
+label for 이름과 input id와 동일하게 설정
+ex) <label for="userID"> </label>
+	<input ...... id="userID">
 
 2. radio, checkbox, select, textarea
 radio : 하나만 선택 / checkbox : 여러 개 선택 가능
 select : 항목들 중 선택 / textarea : 비교적 장문의 글 입력 가능
 
+span 태그 특정
+아무런 의미가 없는 태그 (Non-Semantic)
+인라인 요소 (Inline Element)
 
 
+
+
+# web server
+- 웹 서버의 종류 <br/>
+아파치 HTTP 서버 (Apache HTTP Server): 가장 오래되고 널리 사용되는 오픈소스 웹 서버로, 높은 안정성과 다양한 모듈 확장이 장점입니다.
+과거 많이 이용됨 <br />
+Nginx (엔진엑스): 고성능, 저메모리 사용으로 유명하며, 정적 콘텐츠 제공뿐 아니라 리버스 프록시, 로드 밸런싱, 캐싱 등에도 활용됩니다. <br />
+Microsoft IIS (Internet Information Services): 마이크로소프트에서 개발한 웹 서버로, Windows 환경에서 강력한 성능과 통합을 제공합니다.
+
+Nginx
+
+- 웹 서버와 WAS의 관계 <br />
+웹 서버 (Web Server): HTML, CSS, 이미지 같은 정적 콘텐츠를 클라이언트에 제공하는 데 특화되어 있습니다 (예: Apache, Nginx). <br />
+웹 애플리케이션 서버 (WAS, Web Application Server): 동적 콘텐츠를 생성하고 비즈니스 로직을 처리하는 서버로, 웹 서버와 함께 사용되기도 합니다 (예: Tomcat, JEUS).
    
-
-
+# docker
+- docker desktop 프로그램 설치 <br/>
+https://hub.docker.com/ 접속 > nginx 검색 > docker pull nginx:latest 다운 > VSC에서 이미지 확인 및 실행
 
