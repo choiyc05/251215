@@ -74,9 +74,6 @@ span 태그 특정
 아무런 의미가 없는 태그 (Non-Semantic)
 인라인 요소 (Inline Element)
 
-
-
-
 # web server
 - 웹 서버의 종류 <br/>
 아파치 HTTP 서버 (Apache HTTP Server): 가장 오래되고 널리 사용되는 오픈소스 웹 서버로, 높은 안정성과 다양한 모듈 확장이 장점입니다.
@@ -93,4 +90,5 @@ Nginx
 # docker
 - docker desktop 프로그램 설치 <br/>
 https://hub.docker.com/ 접속 > nginx 검색 > docker pull nginx:latest 다운 > VSC에서 이미지 확인 및 실행
+
 
