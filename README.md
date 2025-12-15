@@ -48,5 +48,11 @@
 
 </html> <!-- HTML 문서 종료 -->
 
-index.html > 기본 사이트 의미
+#기본 페이지 개념
+.../index.html > 기본 사이트 의미
+예시)	.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/
+		.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/index.html
+		>> 동일한 페이지 열림
+
+
 
