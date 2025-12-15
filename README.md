@@ -54,5 +54,21 @@
 		.../WEB_STUDY-main/WEB_STUDY-main/frontend/html/study01/index.html
 		>> 동일한 페이지 열림
 
+# 폼 알아보기 (study03)
+1. input
+	form
+method 선택 방법
+get 방식 : 단순 화면 띄우기 / post 방식 : 민감한 정보 포함
+
+a 태그와 유사하게 이용할 수도 있음
+
+2. radio, checkbox, select, textarea
+radio : 하나만 선택 / checkbox : 여러 개 선택 가능
+select : 항목들 중 선택 / textarea : 비교적 장문의 글 입력 가능
+
+
+
+   
+
 
 
